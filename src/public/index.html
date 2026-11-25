@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gerenciador de Estoque</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/app.js" defer></script>
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- Menu lateral -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h2>Gerenciador</h2>
+                <span>Estoque</span>
+            </div>
+
+            <nav>
+                <p class="menu-titulo">MENU PRINCIPAL</p>
+
+                <a href="#" class="menu-item ativo" data-pagina="dashboard">
+                    Dashboard
+                </a>
+
+                <a href="#" class="menu-item" data-pagina="produtos">
+                    Produtos
+                </a>
+
+                <a href="#" class="menu-item" data-pagina="estoque">
+                    Estoque
+                </a>
+            </nav>
+
+        </aside>
+
+        <!-- Conteúdo principal -->
+        <main class="conteudo">
+
+            <header class="topbar">
+                <h2 id="tituloPagina">Dashboard</h2>
+                <span>Painel administrativo</span>
+            </header>
+
+            <section class="pagina" id="conteudoPagina">
+
+                <!-- Dashboard -->
+                <div class="boas-vindas">
+                    <h1>Bem-vindo ao sistema!</h1>
+
+                    <p>
+                        Gerencie seus produtos e acompanhe
+                        as movimentações do estoque.
+                    </p>
+                </div>
+
+                <div class="indicadores">
+
+                    <div class="indicador">
+                        <span>Produtos cadastrados</span>
+                        <h2 id="totalProdutos">Carregando...</h2>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <h2>Visão geral</h2>
+
+                    <p>
+                        Aqui você poderá acompanhar as principais
+                        informações dos seus produtos e do estoque.
+                    </p>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
